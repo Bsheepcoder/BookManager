@@ -1,6 +1,8 @@
 package com.book.controller.page;
 
 import com.book.service.AuthService;
+import com.book.service.BookService;
+import com.book.service.StatService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

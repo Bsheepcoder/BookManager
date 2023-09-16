@@ -14,4 +14,10 @@ public interface UserMapper {
     @Options(useGeneratedKeys = true,keyColumn = "id",keyProperty = "id")
     @Insert("insert into users(username,password,role,mail) values(#{username},#{password},#{role},#{mail})")
     int registerUser(AuthUser user);
+
+    @Select("select sid from student where uid = #{uid}")
+    Integer getSidByUserId(int uid);
+
+    @Select("select count(*) from student")
+    int getStudentCount();
 }

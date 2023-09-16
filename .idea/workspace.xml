@@ -9,31 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cf310a5-ba7b-46a4-a695-8538822925d2" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/config/MvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/config/RootConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/entity/AuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/initializer/MvcInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/initializer/SecurityInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/UserAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringTest.java" afterDir="false" />
+    <list default="true" id="8cf310a5-ba7b-46a4-a695-8538822925d2" name="更改" comment="完善admin 、 auth 、 user 接口">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/entity/Borrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/entity/BorrowDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/entity/GlobalStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/StatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/StatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/api/AdminApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/api/AdminApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/api/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/api/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/page/AdminPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/page/AdminPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/page/AuthPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/page/AuthPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/page/UserPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/page/UserPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/initializer/MvcInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/initializer/MvcInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/initializer/SecurityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/initializer/SecurityInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -224,11 +223,31 @@
       <option name="presentableId" value="Default" />
       <updated>1694837538265</updated>
       <workItem from="1694837541336" duration="7288000" />
-      <workItem from="1694845867737" duration="11708000" />
+      <workItem from="1694845867737" duration="15245000" />
     </task>
+    <task id="LOCAL-00001" summary="构建基础框架">
+      <created>1694857769705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694857769706</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完善admin 、 auth 、 user 接口">
+      <created>1694858389275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694858389275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="构建基础框架" />
+    <MESSAGE value="完善admin 、 auth 、 user 接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善admin 、 auth 、 user 接口" />
   </component>
 </project>

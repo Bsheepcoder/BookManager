@@ -1,5 +1,10 @@
 package com.book.service;
 
+import com.book.entity.AuthUser;
+
+import javax.servlet.http.HttpSession;
+
 public interface AuthService {
-    boolean register(String name,String password,String mail);
+    void register(String name, String password, String mail);
+    AuthUser findUser(HttpSession session);
 }
