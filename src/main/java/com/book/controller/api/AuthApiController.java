@@ -1,4 +1,4 @@
-package com.book.controller;
+package com.book.controller.api;
 
 import com.book.service.impl.AuthServiceImpl;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 
 @Controller
 @RequestMapping("/api/auth")
-public class AuthController {
+public class AuthApiController {
     @Resource
     AuthServiceImpl authService;
     @RequestMapping(value = "/register",method = RequestMethod.POST)
@@ -18,8 +18,7 @@ public class AuthController {
                            @RequestParam("password") String password,
                            @RequestParam("mail") String mail){
         System.out.println(" " + name + password + mail);
-        if(authService.register(name,password,mail))
-            return "login";
-        return "errorpage";
+        authService.register(name,password,mail);
+        return "redirect:/login";
     }
 }
